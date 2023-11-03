@@ -53,7 +53,7 @@ body{
   }
   
 header{
-    background-image: url("/images/lone-starfish-wide.jpg");
+    background-image: url("/images/lone-starfish-wide.jpg"); 
     background-repeat: no-repeat;
     background-position: center;
     padding: 100px 50px;
