@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Final Project</title>
+    
 </head>
 <body>
-
-    <img src="images/logo.png" alt="Company Logo">
-
     <!-- Navigation Section -->
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <div class="header-yellow-box">
+            <img src="images/logo.png" alt="Company Logo" class="logo">
+            <div class="home-container">
+                <a href="#home" id="home-link">Home</a>
+            </div>
+        </div>
+    
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <!-- Search Bar -->
     <form id="form"> 
         <input type="search" id="Search" name="S" placeholder="Search">
-        <button>Search</button>
+        <button type="submit"><i class="material-icons">search</i></button>
+
     </form>
 
     <!-- Home Page -->
@@ -31,15 +40,15 @@
         <img src="images/main-banner.jpg" alt="Home Page Background">
 
         <div class="overlay">
-            <header>
-                <h1>Welcome to Three Star Media</h1>     
-            </header>
 
+                <h1>Welcome to Three Star Media</h1>     
+           
          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quam obcaecati itaque nam consequatur voluptatibus sequi sit, vero repudiandae adipisci, a, sapiente incidunt possimus at qui aliquid dolores accusantium illum.
          </p>
-
-            <button>Connect with us</button>
+            <div class="homebutton">
+                <button2 type="Redirect">Connect with us ></button2>
+            </div>
         </div>
     </div>    
 
@@ -47,185 +56,185 @@
     <div id="about">
         <img src="images/about-us.jpg" alt="About Us Image">
 
-        <h2>About Us</h2>
+        <div class="text-container">
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odio molestiae quidem assumenda vitae, hic illo non ut ullam dignissimos voluptas quod libero eum. Praesentium odit suscipit ullam iure quod?
-        </p>
+            <h2>About Us</h2>
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio doloremque neque sit est, rem ratione temporibus quaerat natus necessitatibus doloribus autem, ducimus quasi earum repellendus amet eius architecto? Sed, ullam!
-        </p>
+            <p2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odio molestiae quidem assumenda vitae, hic illo non ut ullam dignissimos voluptas quod libero eum. Praesentium odit suscipit ullam iure quod?
+            </p2>
+
+            <p2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio doloremque neque sit est, rem ratione temporibus quaerat natus necessitatibus doloribus autem, ducimus quasi earum repellendus amet eius architecto? Sed, ullam!
+            </p2>
+        </div>
     </div>   
 
     <!-- Services Page -->
     <div id="services">
         <h2>Our Services</h2>
 
-        <img src="images/digital.jpg" alt="Our Services">
-
         <div class="overlay2">
-            <header>
+
+            <img src="images/digital.jpg" alt="Our Services">
+
                 <h3>Digital Transformation</h3>     
-            </header>
 
-            <p>
+            <p3>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab temporibus beatae mollitia a hic porro inventore ducimus minima! Temporibus, voluptatum. Nam consectetur esse sint debitis error tempore explicabo earum dolorum.
-            </p>
+            </p3>
 
-            <button>Digital Plans</button>
+            <button3>Digital Plans ></button3>
         </div>
-
-        <img src="images/marketing.jpg" alt="Marketing">
 
         <div class="overlay3">
-            <header>
+
+            <img src="images/marketing.jpg" alt="Marketing">
+
                 <h3>Marketing</h3>     
-            </header>
-
-            <p>
+ 
+            <p4>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, ab nobis id quasi accusantium laudantium itaque praesentium aperiam facere! Incidunt, perferendis. Rem corrupti veritatis natus optio. Deserunt commodi aut similique.
-            </p>
+            </p4>
 
-            <button>Marketing Plans</button>
+            <button4>Marketing Plans ></button4>
         </div>
-
-        <img src="images/video.jpg" alt="Video">
 
         <div class="overlay4">
-            <header>
+
+            <img src="images/video.jpg" alt="Video">
+
                 <h3>Video Production</h3>     
-            </header>
-
-            <p>
+     
+            <p5>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eius error vero quibusdam amet non, at animi magnam nostrum libero, delectus illum voluptates. Corrupti ullam eum consequatur accusamus temporibus aspernatur?
-            </p>
+            </p5>
 
-            <button>Video Plans</button>
+            <button5>Video Plans ></button5>
         </div>
-
-        <img src="images/web.jpg" alt="Web">
 
         <div class="overlay5">
-            <header>
+
+            <img src="images/web.jpg" alt="Web">
+      
                 <h3>Web Development</h3>     
-            </header>
-
-            <p>
+         
+            <p6>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti similique neque quae. Ea similique ipsam nisi optio odio itaque consequuntur voluptas corporis expedita quaerat. Veritatis explicabo nesciunt rem voluptatem voluptatibus!
-            </p>
+            </p6>
 
-            <button>Web Plans</button>
+            <button6>Web Plans ></button6>
         </div>
-
-        <img src="images/print.jpg" alt="Web">
 
         <div class="overlay6">
-            <header>
+
+            <img src="images/print.jpg" alt="Web">
+           
                 <h3>Print</h3>     
-            </header>
 
-            <p>
+            <p7>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias repudiandae aut voluptatum consequatur non temporibus ab fugiat totam, ea quo quis doloribus! Voluptatum accusantium praesentium, dolorem laboriosam molestias doloribus.
-            </p>
+            </p7>
 
-            <button>Print Plans</button>
+            <button7>Print Plans ></button7>
         </div>
 
-        <img src="images/vision.jpg" alt="Web">
 
         <div class="overlay7">
-            <header>
-                <h3>Our Vision</h3>     
-            </header>
+  
+                <h4>Our Vision</h4>     
 
-            <p>
+            <p8>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eaque quis expedita laborum? Voluptates maxime quas ex fuga assumenda labore placeat? Molestias optio a quidem similique. Odio ipsum autem consectetur?
-            </p>
+            </p8>
 
-            <button>Learn More</button>
+            <button8>Learn More ></button8>
         </div>
     </div>    
     <!-- Team Page -->
     <div id="team">
-        <header>
+
             <h2>Our Team</h2>
-        </header>
 
-        <img src="images/john.jpg" alt="John Doe">
+        <div class="John">
+            <img src="images/john.jpg" alt="John Doe">
 
-        <h3>John Doe</h3>
+            <div class="text-container">
+                <h5>John Doe</h5>
 
-        <h4>CEO and Co-owner</h4>
+                <h6>CEO and Co-owner</h6>
+                <hr>
+                <p9>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquid animi quia exercitationem numquam eaque harum tempore autem reprehenderit facilis maiores est ipsam, soluta fuga dicta eligendi incidunt minus enim?
+                </p9>
+            </div>
+        </div>
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat aliquid animi quia exercitationem numquam eaque harum tempore autem reprehenderit facilis maiores est ipsam, soluta fuga dicta eligendi incidunt minus enim?
-        </p>
+            <div class="Bob">
+            <img src="images/bob.jpg" alt="Bob Rite">
 
-        <h3>Bob Rite</h3>
 
-        <h4>CFO and Co-owner</h4>
+            <div class="text-container">
+                <h5>Bob Rite</h5>
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique accusantium asperiores vero deleniti, non laboriosam enim perferendis nesciunt distinctio, autem quibusdam possimus, modi quod illum? Ratione suscipit vero neque. Molestiae.
-        </p>
-
-        <img src="images/bob.jpg" alt="Bob Rite">
+                <h6>CFO and Co-owner</h6>
+                <hr>
+                <p9>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique accusantium asperiores vero deleniti, non laboriosam enim perferendis nesciunt distinctio, autem quibusdam possimus, modi quod illum? Ratione suscipit vero neque. Molestiae.
+                </p9>
+            </div>
+        </div>
     </div>
 
     <!-- Contact Page -->
     <div id="contact">
-        <header>
+       
             <h2>Contact Us</h2>
-        </header>
 
-        <h3>Send us a message</h3>
+        <h7>Send us a message</h7>
 
-        <form>
+        <form class="form">
+            <text>Full Name</text>
             <input type="text">
+            <text>Email</text>
             <input type="email">
+            <text>Message</text>
             <textarea rows="4" required></textarea>
-            <button type="submit">Send</button>
+            <button9 type="submit">Send</button9>
         </form>
 
-        <h3>Location</h3>
+        <!-- Hours of Operation -->
+        <h7>Hours of Operation</h7>
+
+        <table>
+            <tr>
+                <th>Days</th>
+                <th>Hours</th>
+            </tr>
+            <tr>
+                <td>Monday - Friday</td>
+                <td>9AM - 6PM</td>  
+            </tr>
+            <tr>
+                <td>Saturday - Sunday</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+
+        <h7>Location</h7>
 
         <!-- Map Section -->
         <iframe
-            width="600"
-            height="450"
             style="border:0"
             loading="lazy"
             allowfullscreen
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.904119899789!2d-75.77048108450576!3d45.34823323512285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05a48d4f7d13%3A0x21e5014fb0bc4d2c!2sAlgonquin%20College!5e0!3m2!1sen!2sca!4v1660931507591!5m2!1sen!2sca">
         </iframe>
-
-        <h3>Hours of operation</h3>
-
-        <!-- Table for Days and Hours -->
-        <table>
-            <thead>
-                <tr>
-                    <th>Days</th>
-                    <th>Hours</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Monday - Friday</td>
-                    <td>9 AM - 6 PM</td>
-                </tr>
-                <tr>
-                    <td>Saturday - Sunday</td>
-                    <td>Closed</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
     
     <!-- Footer with Copyright Notice -->
     <footer>
-        &copy; Three Star Media, 2020 All images are taken from Unsplash
+        &copy; Copyright Three Star Media
+        <p10>All images taken from Unsplash</p10>
     </footer>
 
 </body>
